@@ -4,12 +4,14 @@
   "description": "Uploads sermons and info to database and Sermon Audio",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "run": "nodemon server"
   },
   "author": "",
   "license": "ISC"
